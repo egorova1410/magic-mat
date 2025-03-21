@@ -1,0 +1,97 @@
+.h2__title {
+  font-size: 80px;
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.bread-crumb {
+  position: relative;
+  margin-bottom: 60px;
+  line-height: 1.2;
+  margin-left: 7px;
+}
+
+.bread-crumb a:last-child {
+  color: #9ea2aa;
+}
+
+.mapsText {
+  position: relative;
+  margin:0 0 0 700px;
+  text-align: center;
+  bottom: 600px;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+.mapsText1 {
+  font-weight: Bold;
+  font-size: 24px;
+  margin-bottom: 6px;
+  line-height: 175%;
+}
+
+.footer__logo {
+  margin-right: 80px;
+}
+
+.footer__top {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list {
+  display: flex;
+  margin-right: auto;
+  gap: 0 50px;
+}
+
+.footer__item {
+  font-size: 12px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.footer__item:hover {
+  color: #fbd13e;
+}
+
+.footer-contact__inner {
+  display: flex;
+  align-items: center;
+}
+
+.footer__phone {
+  display: block;
+  font-size: 20px;
+  margin-right: 50px;
+  transition: 0.3s ease;
+}
+
+.footer__phone:hover {
+  color: #fbd13e;
+}
+
+.footer__mail {
+  font-size: 12px;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
+.footer__mail:hover {
+  color: #fbd13e;
+}
+
+.footer__bottom {
+  border-top: 1px #3a3a3b solid;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 400;
+}
+

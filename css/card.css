@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  transition: 0.4s ease-in-out;
+  max-width: 90%;
+  font-weight: 500;
+  /* width: 400px; */
+  /* height: 400px; */
+}
+.card .imgCard {
+  width: 400px;
+  height: 400px;
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-size: 20px;
+}
+.card .info .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card .info .text ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+.card .info .priceCard {
+  margin-top: 114px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h2 {
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+}
+.containerTs {
+  min-height: 80svh;
+}
+@media screen and (max-width: 768px) {
+  .containerTs {
+    min-height: 114svh;
+  }
+  .card .info .priceCard {
+    margin-top: 0;
+  }
+  .card .imgCard {
+    width: 357px;
+    height: 350px;
+  }
+  .card .info .text ul {
+    gap: 120px;
+  }
+}

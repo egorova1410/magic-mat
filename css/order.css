@@ -1,0 +1,150 @@
+.containerTs {
+  max-width: 1560px;
+  margin: auto;
+  padding: 10px 24px;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 32px;
+}
+.orderHeader {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
+.orderForms {
+  display: flex;
+  flex-flow: column;
+  max-width: 850px;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.firstOrderForm {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.firstOrderF {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.firstOrderF .input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstOrderF .input input {
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+h2 {
+  border-bottom: 1px solid #f5f5f53e;
+  padding: 10px 0;
+}
+label {
+  opacity: 60%;
+}
+span {
+  color: #000000;
+}
+.secondOrderForm {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.containerSecondOrderForm {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.secondOrderForm .deliveryTypes {
+  padding: 20px 20px;
+  border: dashed beige;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  cursor: pointer;
+}
+.containerSecondOrderForm :active {
+  border: dashed goldenrod; //При нажатии изменяет цвет обводки
+}
+.secondOrderForm .deliveryTypes .headerDeliveryTypes {
+  display: flex;
+  justify-content: space-between;
+}
+.secondOrderForm .secondOrderF {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.secondOrderForm .secondOrderF .input {
+  display: flex;
+  justify-content: space-between;
+}
+.secondOrderForm .secondOrderF .input input {
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+.thirdOrderForm {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+.thirdOrderForm .paymentContainer {
+  border: dashed beige;
+  padding: 40px 20px;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.thirdOrderForm :active {
+  border: dashed goldenrod;
+}
+.thirdOrderForm .paymentContainer input {
+  width: 15px;
+  border-radius: 20px;
+  background-color: red;
+}
+.thirdOrderForm .paymentContainer img {
+  width: 510px;
+}
+.payment {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #fbd13e;
+  font-weight: 600;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .secondOrderForm .containerSecondOrderForm {
+    flex-flow: row wrap;
+  }
+  .secondOrderForm .secondOrderF .input {
+    flex-flow: column;
+  }
+  .thirdOrderForm .paymentContainer {
+    width: 390px;
+  }
+  .thirdOrderForm .paymentContainer img {
+    width: 295px;
+  }
+}

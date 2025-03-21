@@ -1,0 +1,39 @@
+.containerTs {
+  max-width: 1560px;
+  margin: auto;
+  padding: 10px 24px;
+  min-height: 74svh;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 32px;
+}
+.callBackHeader {
+  padding: 10px 0;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  font-size: 20px;
+  justify-content: flex-start;
+}
+
+.callBackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.callBackFormElement {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.callBackForm button {
+  border: 1px solid #fbd13e;
+  border-radius: 12px;
+  color: #fff;
+  padding: 10px 20px;
+}
+.callBackForm input {
+  border-radius: 12px;
+  padding: 10px 20px;
+}
